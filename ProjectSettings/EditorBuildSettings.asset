@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sokoban Starter/Sokoban.unity
+    guid: e8eb16d62200eca4b9790429ebff0372
   m_configObjects: {}

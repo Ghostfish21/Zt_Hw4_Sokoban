@@ -34,7 +34,7 @@ public abstract class Block : MonoBehaviour {
     }
     
     // Start is called before the first frame update
-    void Awake() {
+    void Start() {
         gridObject = GetComponent<GridObject>();
         
         int randomX = UnityEngine.Random.Range(0, (int)GridMaker.reference.dimensions.x);
